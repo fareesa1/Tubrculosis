@@ -1,0 +1,190 @@
+/*!
+ * Start Bootstrap - Business Casual v5.0.11 (https://startbootstrap.com/theme/business-casual)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-business-casual/blob/master/LICENSE)
+ */
+body{
+font-family:Lora;
+background-image:linear-gradient(rgba(0,123,255,.25),rgba(0,123,255,.5)),url(../img/bg.jpg);
+background-attachment:fixed;
+background-position:center;
+background-size:cover
+}
+h1,h2,h3,h4,h5,h6{
+font-family:Raleway
+}
+p{
+line-height:2
+}
+.text-faded{
+color:rgba(228, 108, 108, 0.589)
+}
+.site-heading{
+margin-top:5rem;
+margin-bottom:1rem;
+text-transform:uppercase;
+line-height:1;
+font-family:Raleway
+}
+.site-heading .site-heading-upper{
+display:block;
+font-size:.8rem;
+font-weight:500
+}
+.site-heading .site-heading-lower{
+font-size:1rem;
+font-weight:800;
+line-height:3rem
+}
+.page-section{
+margin-top:5rem;
+margin-bottom:5rem
+}
+.section-heading{
+text-transform:uppercase
+}
+.section-heading .section-heading-upper{
+display:block;
+font-size:1rem;
+font-weight:800
+}
+.section-heading .section-heading-lower{
+display:block;
+font-size:2rem;
+font-weight:500
+}
+.bg-faded{
+background-color:rgba(241, 191, 191, 0.85)
+}
+#mainNav{background-color:rgba(120, 189, 250, 0.578);font-family:Raleway}#mainNav 
+.navbar-brand{
+color:#7e568b
+}
+#mainNav .navbar-nav .nav-item .nav-link{color:rgb(126, 98, 7);font-weight:800}#mainNav 
+.navbar-nav .nav-item.active .nav-link{
+color:rgb(126, 98, 7)
+}
+@media (min-width:992px){#mainNav .navbar-nav .nav-item .nav-link{font-size:.9rem}#mainNav 
+.navbar-nav .nav-item .nav-link:hover{
+color:rgba(209, 197, 143, 0.897)
+}
+#mainNav 
+.navbar-nav .nav-item.active .nav-link:hover{
+color:#a8e9bf
+}
+}
+.btn-xl{
+font-weight:700;
+font-size:.8rem;
+padding-top:1.5rem;
+padding-bottom:1.5rem;
+padding-left:2rem;
+padding-right:2rem
+}
+.intro{
+position:relative
+}
+@media (min-width:992px){
+.intro .intro-img{
+width:75%;
+float:right
+}
+.intro .intro-text{
+left:0;width:60%;
+margin-top:3rem;
+position:absolute
+}
+.intro .intro-text .intro-button{
+width:100%;
+left:0;
+position:absolute;
+bottom:-2rem
+}
+}@media (min-width:1200px)
+{
+.intro .intro-text{
+width:45%}
+}
+.cta{
+padding-top:1rem;
+padding-bottom:5rem;
+}
+.cta .cta-inner{
+position:relative;
+padding:2rem;
+margin:.1rem;
+background-color:rgba(108, 243, 209, 0.85)
+}
+@media (min-width:992px)
+{
+.about-heading .about-heading-img{
+position:relative;
+z-index:0
+}
+.about-heading .about-heading-content{
+margin-top:10rem;
+position:relative;
+z-index:1
+}
+}@media (min-width:992px){
+.product-item .product-item-title{
+position:relative;
+z-index:1;
+margin-bottom:-3rem
+}
+.product-item .product-item-img{
+position:relative;
+z-index:0;
+max-width:60vw
+}
+.product-item .product-item-description{
+position:relative;
+z-index:1;
+margin-top:-3rem;
+max-width:50vw
+}
+}
+.list-hours{
+font-size:.9rem
+}
+.list-hours .list-hours-item{
+border-bottom:1px solid rgba(86, 192, 230, 0.442);
+padding-bottom:.25rem;
+margin-bottom:1rem;
+font-style:italic
+}
+.list-hours .list-hours-item.today{
+font-weight:700;
+color:#e5c39b
+}
+@media (min-width:992px){
+.list-hours{
+width:50%;
+font-size:1.1rem
+}
+}
+.address strong{
+font-size:1.2rem
+}
+.footer{
+background-color:rgba(15, 36, 47, 0.9)
+}
+.text-primary{
+color:#3ed49b!important
+}
+.bg-primary{
+background-color:#cec8c0!important
+}
+.btn{
+box-shadow:0 3px 3px 0 rgba(150, 181, 212, 0.1)
+}
+.btn-primary{
+background-color:#dfc4a9;border-color:#9b9895
+}
+.btn-primary:active,.btn-primary:focus,.btn-primary:hover{
+background-color:#a0dd6f;
+border-color:#968ee0
+}
+.font-weight-light{
+font-weight:100!important
+}
